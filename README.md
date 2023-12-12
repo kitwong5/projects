@@ -1,4 +1,4 @@
-# Slope One and Weighted Slope One Recommender System
+# Slope One Recommender System
 Slope One predictor is one of the widely used methods in recommendation systems. It is a rating-based collaborative filtering recommendation algorithm introduced in a paper by Lemire and Maclachlan in 2005.  Lemire and Maclachlan introduced several CF algorithms like PER USER AVERAGE, The SLOPE ONE Scheme, the weighted SLOPE ONE Scheme, and The BI-POLAR SLOPE ONE Scheme. This code will put the focus on SLOPE ONE and the weighted SLOPE ONE Scheme.
 
 SLOPE ONE Scheme is a model-based collaborative filtering. It used a simple linear regression model, the f(x) = x + b for prediction. x represents the rating value and b refers to the average difference between the ratings of one item of another.
