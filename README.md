@@ -3,7 +3,7 @@ Slope One predictor is one of the widely used methods in recommendation systems.
 
 SLOPE ONE Scheme is a model-based collaborative filtering. It used a simple linear regression model, the f(x) = x + b for prediction. x represents the rating value and b refers to the average difference between the ratings of one item of another.
 
-![image](https://github.com/kitwong5/weighted_slope_one.github.io/assets/142315009/1530c516-9fc9-447a-ae8b-e7bb44c5f569)
+![image](https://github.com/kitwong5/weighted_slope_one.github.io/assets/142315009/9f3c7097-7464-4cb0-970a-95af4f1f9571)
 
 For example,  to make a prediction for user B on Item j, the model will lookup other rated users rating (e.g. User A). It takes the difference between Item j to another item i to calculate the deviation.  Then it takes the average deviation and uses it to predict User B on item j by just adding the deviation on top of item I’s rating value.
 
